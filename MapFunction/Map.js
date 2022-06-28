@@ -30,7 +30,6 @@ console.log("using custom function", output);
 // output [ 25, 4, 144, 64, 16, 1 ]
 
 /***********************Custom function documantation*******************************/
-/**********************ref- https://medium.com/@dhilipkmr/array-map-bf7656c1a050  *****************/
 
 Array.prototype.mymap = function (callback) {
   //this refers to array which is calling mymap function
